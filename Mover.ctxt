@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ moveRight()
+comment1.params=
+comment1.target=void\ moveLeft()
+comment2.params=
+comment2.target=void\ moveUp()
+comment3.params=
+comment3.target=void\ moveDown()
+comment4.params=clss
+comment4.target=boolean\ touches(java.lang.Class)
+numComments=5
