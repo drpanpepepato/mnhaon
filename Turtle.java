@@ -13,13 +13,28 @@ public class Turtle extends Mover
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act(){
-        moveRight();
         
+        if (Greenfoot.isKeyDown("left") )
+        {
+            moveLeft();
+        }
+        if (Greenfoot.isKeyDown("right") )
+        {
+            moveRight();
+        }
+        if (Greenfoot.isKeyDown("up") )
+        {
+            moveUp();
+        }
+        if (Greenfoot.isKeyDown("down") )
+        {
+            moveDown();
+        }
         
-       if ( touches (Truck.class)) {
+       if ( touches(Truck.class) || touches(Truck2.class)) 
+       {
         Greenfoot.playSound("game_turtle_splat.wav");
-        Greenfoot.stop();
-       
+        this.setLocation(0,350);
     }
 }
     

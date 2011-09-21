@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Tue Sep 20 22:06:05 CDT 2011
+#Tue Sep 20 23:04:21 CDT 2011
 target4.type=ClassTarget
 dependency3.from=Turtle
 target3.height=50
@@ -43,7 +43,7 @@ target2.type=ClassTarget
 target2.y=70
 target2.x=70
 mainWindow.y=53
-class.Truck.image=ambulance-n.png
+class.Truck.image=truck_1.png
 mainWindow.x=510
 dependency1.from=Earth
 target1.y=10
@@ -57,8 +57,10 @@ class.Earth.image=mnhaon_background.png
 target2.name=Truck
 package.numDependencies=3
 target4.naviview.expanded=true
-class.Turtle.image=turtle.png
+class.Turtle.image=turtle_1.png
+class.Truck2.superclass=Mover
 target3.editor.height=700
+class.Truck2.image=truck_2.png
 target3.type=ClassTarget
 target4.width=80
 dependency2.from=Earth
