@@ -35,4 +35,11 @@ public class Mover extends Actor
         Actor actor = getOneIntersectingObject(clss);
         return actor != null;
     }
+    public boolean atTop()
+    {
+        if(getY() == getWorld().getHeight()-750)
+            return true;
+        else
+            return false;
+    }
 }
